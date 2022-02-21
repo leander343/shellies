@@ -1,0 +1,8 @@
+[
+  {
+    "project-name": "example-project",
+    "repo-name": "Example-github-repo",
+    "domain-name": "example-project.com",
+    "port": 1300
+  }
+]
