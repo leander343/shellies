@@ -29,5 +29,5 @@ while [[ $# -gt 0 ]]
     esac
 done
 set -- "${POSITIONAL[@]}"
-echo "scp ${USERNAME}@${HOSTS}:/root/duskanddawn_bckp/${DB} .${FOLDER}"
-scp ${USERNAME}@${HOSTS}:/root/duskanddawn_bckp/${DB} .${FOLDER}
+echo "scp ${USERNAME}@${HOSTS}:/root/project_bckp/${DB} .${FOLDER}"
+scp ${USERNAME}@${HOSTS}:/root/project_bckp/${DB} .${FOLDER}
