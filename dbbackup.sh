@@ -1,6 +1,6 @@
 #!/bin/bash
 USERNAME=root
-HOSTS="172.105.169.44"
+HOSTS="xx.xx.xx.xx"
 while [[ $# -gt 0 ]]
     do
     key="$1"
