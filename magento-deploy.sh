@@ -1,5 +1,5 @@
 #!/bin/bash
-cd  /var/www/html/Dusk-Dawn-Magento
+cd  /var/www/html/Magento
 git fetch --quiet;
 git reset --hard origin/$branch --quiet;
 ./deploy.sh $(Build.SourceBranch)
